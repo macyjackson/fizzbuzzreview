@@ -1,10 +1,10 @@
-x= 0
+x = 0
 100.times do
+x = x+1
 if 
 	x % 2 == 0
-	p even
-else
+	p "even"
+elsif
 	p x
-x= x+1
 end
 end
