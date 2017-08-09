@@ -3,10 +3,10 @@ x = 0
 x = x+1
 if 
 	x % 3 == 0
-	p "fizz"
+	p "buzz"
 elsif
 	x % 5 == 0
-	p "buzz"
+	p "fizz"
 elsif
 	p x	
 end
