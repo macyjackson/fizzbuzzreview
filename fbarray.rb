@@ -1,4 +1,4 @@
-def fizzarray()
+
 	x = 0
 	fizz_array = []
 	100.times do
@@ -13,7 +13,6 @@ def fizzarray()
 			fizz_array.push(x)
 		end	
 	end
-	p fizz_array
-end
+	# p fizz_array #needs to be outside the do and inside the function. Needs to be the last part of the function.
 
-fizzarray()
+
